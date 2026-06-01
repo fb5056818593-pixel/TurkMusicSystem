@@ -1,0 +1,32 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.ap_
+*.dex
+*.class
+
+# Local configuration file
+local.properties
+
+# Android Studio files
+.idea/
+*.iml
+*.iws
+.DS_Store
+
+# Project files
+.classpath
+.project
+.settings/
+*.swp
+*.swo
+*~.nib
+
+# Mac files
+.DS_Store
+
+# Android
+bin/
+gen/
+out/
