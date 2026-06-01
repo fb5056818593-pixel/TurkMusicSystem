@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <com.google.android.exoplayer2.ui.StyledPlayerView
+        android:id="@+id/playerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/controlPanel"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#4d000000"
+        android:paddingHorizontal="20dp">
+
+        <Button
+            android:id="@+id/btnPrevious"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="Önceki"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/btnPlayPause"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:text="Oynat"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:text="Sonraki"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+</RelativeLayout>
